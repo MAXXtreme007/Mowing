@@ -10,6 +10,63 @@ h1
     text-align: center;
 }
 
+/* ==================================================
+   General Layout Styles
+================================================== */
+
+.vertical-center
+{
+    min-height: 100%;  /* Fallback for vh unit */
+    min-height: 100vh; /* You might also want to use height' property instead.
+    /* Make it a flex container */
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    /* Align the bootstrap's container vertically */
+    -webkit-box-align : center;
+    -webkit-align-items : center;
+    -moz-box-align : center;
+    -ms-flex-align : center;
+    align-items : center;
+    /* In legacy web browsers such as Firefox 9
+    we need to specify the width of the flex container */
+    width: 100%;
+    /* Also 'margin: 0 auto' doesn't have any effect on flex items in such web browsers
+    hence the bootstrap's container won't be aligned to the center anymore.
+    Therefore, we should use the following declarations to get it centered again */
+    -webkit-box-pack : center;
+    -moz-box-pack : center;
+    -ms-flex-pack : center;
+    -webkit-justify-content : center;
+    justify-content : center;
+}
+.fullwidth
+{
+    width: 100%;
+    padding: 40px 30px;
+    min-width: 280px;
+}
+.fullwidth .bodycontainer
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+.carousel-indicators li
+{
+    width: 15px;
+    height: 15px;
+    background-color: #C8FB49;
+}
+.carousel-indicators:active
+{
+    width: 20px;
+    height: 20px;
+    background-color: #FF6600;
+}
 .center
 {
     display: block;
@@ -17,8 +74,8 @@ h1
     text-align: center;
 }
 
-#title {
-    padding-top: 70px;
+#company-name {
+    color: #63913D;
 }
 
 /* ==================================================
@@ -26,13 +83,14 @@ h1
 ================================================== */
 
 .navbar-inverse {
-    background-color: #575757;
+    background-color: rgba(0,0,0,0.75);
 }
 
 .navbar-nav>li>a {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 20px;
+    color: #000;
 }
 
 .navbar-toggle {
@@ -40,10 +98,13 @@ h1
 }
 
 .navbar-nav>li:hover {
-    background-color: #FD9348;
-    color: #FFF;
+    color: #FD9348;
+    font-size: 1.5em;
 }
 
+li>h2 {
+    color: #63913D;
+}
 /* standard navbar */
 @media (min-width: 768px) {
     #full-logo {
@@ -84,10 +145,6 @@ h1
         text-align: center;
         width: 100px;
     }
-    .nickname {
-        display: table-cell;
-        text-align: center;
-    }
 }
 @media (max-width: 768px){
     .navbar-header {
@@ -101,9 +158,69 @@ h1
     }*/
 }
 
-#grass {
-    padding-top: 120px;
+/* ==================================================
+   Top Container
+================================================== */
+
+.bg-image {
+    position: relative;
+}
+
+.bg-image img {
+    display: block;
     width: 100%;
-    height: 30px;
-    background-color: #2b542c;
+    max-height: 950px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#main-bg-lg {
+    background: url(../media/field-tree.png) no-repeat;
+    display: block;
+    width: 100%;
+    height: 950px;
+    background-size: contain;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .bg-image h2 {
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        right: 30%;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bg-image h1 {
+        text-align: center;
+        font-size: 1.25em;
+        top: 20%;
+        color: white;
+    }
+    .bg-image h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 1.25em;
+        top: 82%;
+        left: 0;
+        color: white;
+    }
+}
+
+#mower {
+    width: 350px;
+}
+/* ==================================================
+   Footer
+================================================== */
+
+#grass {
+    background-repeat: repeat-x;
+    height: 300px;
 }
