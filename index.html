@@ -20,9 +20,8 @@
     <!-- Analytics -->
     <script src="js/analytics.js"></script>
 </head>
-<body id="backtotop">
+<body id="backtotop" data-spy="scroll" data-target="#services">
 <!-- ========================================Navbar======================================== -->
-<div class="container">
     <div id="header" class="row">
         <div class="center dashboard-header">
             <div class="row nav-wrapper">
@@ -47,11 +46,12 @@
                                     <li class="visible-xs"><h2>Clean Cut Lawn Care</h2></li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-center justified">
-                                    <li><a href="#About">About</a></li>
                                     <li><a href="#Services">Services</a></li>
+                                    <li><a href="#About">About</a></li>
                                     <a id="full-logo" class="navbar-brand" href="#"><img src="media/logo.png" alt="Clean Cut Logo" width="120"></a>
                                     <li><a href="#Photos">Photos</a></li>
                                     <li><a href="#Contact">Contact</a></li>
+                                    <li class="visible-xs"><a href="#Pay">Pay</a></li>
                                 </ul>
                         </div>
                     </div>
@@ -59,38 +59,266 @@
             </div>
         </div>
     </div>
-</div>
-<!-- ========================================Header======================================== -->
+<!-- ========================================Top Container======================================== -->
 <div class="row-fluid">
     <div class="bg-image">
-        <div id="main-bg-lg" class="hidden-xs"></div>
+        <img class="hidden-xs" src="media/field-tree.png">
         <img class="visible-xs" src="media/field-tree-mobile.png">
         <h1 class="visible-xs">Clean Cut<br>Lawn Care</h1>
-        <h2><span style="color: #FF6600; font-size: 1.2em; font-weight: bold;">"</span>Always on the Cutting Edge<span style="color: #FF6600; font-size: 1.2em; font-weight: bold;">"</span></h2>
-        <img id="mower" class="hidden-xs" src="media/Scag.png">
+        <h2 class="hidden-xs"><span style="color: #FF6600; font-size: 1.2em; font-weight: bold;">"</span>Always on the Cutting Edge<span style="color: #FF6600; font-size: 1.2em; font-weight: bold;">"</span></h2>
     </div>
 </div>
-<!--<div class="row-fluid">-->
-    <!--<div class="fullwidth">-->
-        <!--<div id="quotecont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">-->
-            <!--<div id="commentslider" class="owl-carousel">-->
-                <!--<div class="item">-->
-                    <!--<h4>"Your personal <strong>commitment to quality</strong> is obvious in everything you do."</h4>-->
-                    <!--<p class="author">- Steve Jobs <a data-toggle="modal" data-target="#disclaimer"><sup>1</sup></a></p>-->
-                <!--</div>-->
-                <!--<div class="item">-->
-                    <!--<p>"As a business owner, my goal was to find someone to create a web site that was contemporary, easy to use, and attractive. I wanted to add intuitive features that would allow my customers to easily find us and learn about our services. MAXXtreme Designs has accomplished that objective in spades and <strong>I’m very pleased</strong> with the result. We’re already receiving compliments about the look of our new site."</p>-->
-                    <!--<p class="author">- Tim Cook <a data-toggle="modal" data-target="#disclaimer"><sup>1</sup></a></p>-->
-                <!--</div>-->
-                <!--<div class="item">-->
-                    <!--<p>"Your personal commitment to excellence has inspired others to push past mediocrity. They are changed because of you."</p>-->
-                    <!--<p class="author">- Elon Musk <a data-toggle="modal" data-target="#disclaimer"><sup>1</sup></a></p>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
-<!-- ========================================Header======================================== -->
+<!-- ========================================Services Navbar======================================== -->
+<div class="center dashboard-header">
+    <div class="nav-wrapper">
+        <nav id="services-nav" class="navbar navbar-inverse navbar-lower vertical-center" role="navigation">
+            <div class="col-lg-2 visible-lg darken hover-hide">
+                <img id="services-logo" src="media/logo-gray.png" onmouseover="this.src='media/logo.png'" onmouseout="this.src='media/logo-gray.png'" alt="Clean Cut Logo">
+            </div>
+            <div class="col-lg-8 container-fluid">
+                <ul id="services-links" class="nav navbar-nav navbar-center justified center">
+                    <li class="col-xs-6 col-sm-3"><a href="#Lawn">Lawn Care</a></li>
+                    <li class="col-xs-6 col-sm-3"><a href="#Landscaping">Landscaping</a></li>
+                    <li class="col-xs-6 col-sm-3"><a href="#Clean">Clean Up</a></li>
+                    <li class="col-xs-6 col-sm-3"><a href="#Snow">Snow Removal</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 visible-lg darken hover-hide">
+                <a title="Phone" href="tel:4178385735">
+                    <i class="fa fa-phone"></i>
+                    <p>(417)-838-5735</p>
+                </a>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- ========================================Services======================================== -->
+<div class="services">
+    <div class="bodycontainer">
+        <div id="services" class="jumbotron">
+            <div class="container lawn-care">
+                <h1 class="title">Lawn Care</h1><hr>
+                <div class="col-md-7">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="bg" src="media/bg-1.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="bg" src="media/bg-2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h3 class="work">We are committed to enhancing our clients’ most important investment by exceeding their lawn service needs with reliability and value. Imagine quality family time, rest and relaxation, and leaving the dirty work up to us.<br>Your business is just as important as ours. Like any other turf, the lawn around your business requires attention and service. Our flexibility and ability to customize a lawn care program for your property allows your business to make a great first impression.</h3>
+                </div>
+            </div>
+            <div class="container landscaping">
+                <h1 class="title">Landscaping</h1>
+                <hr>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Weed Control</h2>
+                            <h3>WDATCP Certified & Licensed<br>Our weed control is included with your fertilization program. By eliminating dandelions and other major lawn weeds we can help keep your lawn looking its best.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/weeding.jpg">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Pruning</h2>
+                            <h3>Pruning shrubs and trimming hedges is an art. Pruning the right way at the right time can enhance plant growth, reduce disease and insect infestations, improve flowering and fruiting and improve the overall health of the plant. Pruning correctly is different for each plant type and it would behoove you to do some research prior to attempting to prune your own shrubs and hedges.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/hedging.jpg">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Dethatching</h2>
+                            <h3>Thatch is a layer of grass that develops at the base of the grass stems. A thick buildup can prevent essential water and nutrients from reaching the grass roots. We are able to remove any build-up of thatch.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/dethatching.png">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Core Aeration Treatment</h2>
+                            <h3>Core aeration is an important practice to provide your lawn with the ultimate care. An aerated lawn will help control thatch, improve soil, improve root growth, and open airways for water and fertilizer to reach the lawn’s root system.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/core-aeration.jpg">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Edging</h2>
+                            <h3>Edging walks, driveways and curbs will give your yard a neat, clean look that neighbors or businesses will envy.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/edging.jpg">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Fertilization</h2>
+                            <h3>WDATCP Certified & Licensed<br>All lawns need nutrients to survive and sometimes they need a little help to get them. We can design several different programs to help your lawn grow to its fullest potential.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/fertilization.jpg">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Power Washing</h2>
+                            <h3>All kinds of exteriors should be washed to remove the accumulation of mold, mildew, loose dirt, dust, and spider webs, etc. Have your house, deck , driveway, pool area or patios pressure washed by professionals.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/power-wash.jpg">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="col-sm-4">
+                            <h2>Sod Installation</h2>
+                            <h3>Sodding is the fastest and easiest way to establish a lawn. Sod spends a year growing seed into sod so when it comes to your home, it has reached maturity. With proper care, your newly sodded yard will be ready for use in 3 weeks; newly seeded lawns take a great deal of time and nurturing to establish into mature, healthy lawn and cannot be used for months.</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <img class="bg" src="media/sod.jpg">
+                        </div>
+                    </div>
+                </div>
+            <div class="container clean-up">
+                <h1 class="title">Clean Up</h1><hr>
+                <div class="col-md-7">
+                    <img class="bg" src="media/clean-up.png">
+                </div>
+                <div class="col-md-5">
+                    <h3 class="work">Clean Cut Lawn Care has the ability to rake or blow to remove leaves and grass clippings from your lawn, landscaping, or flower beds in the spring or fall seasons.</h3>
+                </div>
+            </div>
+            <div class="container snow-removal">
+                <h1 class="title">Snow Removal</h1><hr>
+                <div class="col-md-5">
+                    <h3 class="work">Stay inside — warm and toasty! Let Clean Cut go outside in the cold and clear out the snow from your driveway, porch, and sidewalks. Keep yourself and your loved ones safe by removing icy walkways.<br>Servicing commercial and residential properties, Clean Cut Lawn Care will keep your driveway, sidewalks and steps clear of snow.</h3>
+                </div>
+                <div class="col-md-7">
+                    <img class="bg" src="media/snow.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========================================Testimonials======================================== -->
+<div class="about">
+    <div class="bodycontainer">
+        <div id="about" class="jumbotron">
+            <div class="row">
+                <img id="badge" src="media/badge.png">
+            </div>
+            <div class="container accolades">
+                <h1 class="title">About Clean Cut Lawn Care</h1><hr>
+                <div class="col-md-7">
+                    <img class="bg" src="media/Philip.png">
+                </div>
+                <div class="col-md-5">
+                    <h3 class="work">Clean Cut Lawn Care is committed to the highest standards of excellence. In everything we do, we hold ourselves to the highest quality standards, 100% honesty all the time, and being right on time, every time. Clean Cut's customers have spoken and you can see their testimonials by visiting Clean Cut's Thumbtack profile. Clean Cut Lawn Care has received the Top Pro badge from Thumbtack — an award given only to Thumbtack's most dedicated and highly-rated professionals—in fact, less than 3% of Thumbtack pros currently qualify.</h3>
+                    <div class="col-sm-12">
+                        <a href="https://www.thumbtack.com/-Springfield-MO/service/2386347" class="btn btn-primary btn-lg text-center" id="thumbtack" type="submit" >Thumbtack</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container testimonials">
+                <h1 class="title">Testimonials</h1><hr>
+                <h2 class="text-center">Hear what people have to say about Clean Cut Lawn Care!</h2><hr>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <h2>Stacy O.</h2>
+                        <h3>Great service, easy to contact. Do a great job!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Nina D.</h2>
+                        <h3>We haven't had a chance to see it, but from all reports, he did a fine job. We will definitely continue to use Clean Cut Lawn Care. And recommend them to our friends!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Jason B.</h2>
+                        <h3>Phillip was very prompt, very professional and is very knowledgeable about his field. I would differentially refer others to him.</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Marvin D.</h2>
+                        <h3>Professional and reasonable.</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Keith R.</h2>
+                        <h3>On time. Excellent service. Could not expect more.</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Anna B.</h2>
+                        <h3>Life saver! Yard looked great. He was very fast and friendly. Fair prices and easy communication! Thank you, we will be calling again!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Dan S.</h2>
+                        <h3>Clean cut did a great job and was very accommodating!! Thanks Philip</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Sarah H.</h2>
+                        <h3>Came out quickly and did a fantastic job!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Mike M.</h2>
+                        <h3>On time, thorough and efficient. Quality work. Highly recommend.</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Abby C.</h2>
+                        <h3>Philip did a great job and was very accommodating to our schedule!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Hilda S.</h2>
+                        <h3>Respectful and nice young man who always consulted me about the yard as he worked on it!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Danny W.</h2>
+                        <h3>A real joy to find someone willing to work hard .</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Jason R.</h2>
+                        <h3>Went really well. Lawn looked good and I will use in the future.</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Candy R.</h2>
+                        <h3>They were fantastic to work with! They did a great job on the yard and we're very flexible with my schedule.</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Mike C.</h2>
+                        <h3>Great job, awesome communication!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>AJ H.</h2>
+                        <h3>Clean Cut Lawn Care's name truly explains what they are capable of! I was contacted within minutes of my post to have somebody come out and cut my lawn. They did an amazing job!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Angela B.</h2>
+                        <h3>Great job! Very nice young man and the yard looks wonderful!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Sharon R.</h2>
+                        <h3>They arrived when they said they would. That has not always been the case with others. My yard was very overgrown because we had been unable to mow due to some problems with tree trimmings. They did a wonderful job at a reasonable price. I have contracted to use them on a regular basis this summer.</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Stephen P.</h2>
+                        <h3>Great job, friendly and does great lawn mowing!</h3>
+                    </div>
+                    <div class="item">
+                        <h2>Jeremy E.</h2>
+                        <h3>Prompt service, excellent job on lawn. We will use again Thanks Phillip!</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ========================================Footer======================================== -->
 <div class="row-fluid">
     <div class="bg-image">
         <img id="grass" src="media/grass.png">
@@ -98,15 +326,18 @@
 </div>
 
 
-<script src="js/owl.carousel.js"></script>
-<script src="js/uikit.scrollspy.js"></script>
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+<script src="js/uikit.scrollspy.js"></script>
 <script src="js/autocomplete.js"></script>
-<script src="js/popover.js"></script>
+<script src="js/owl.carousel.js"></script>
+<!--<script src="js/skrollr.min.js"></script>-->
+<!--<script src="js/skrollr.stylesheets.min.js"></script>-->
 <script type="text/javascript">
+    //Initiate Skrollr
+//    var s = skrollr.init();
     //jQuery for page scrolling feature - requires jQuery Easing plugin
     $(function() {
         $('.navbar-nav a').bind('click', function(event) {

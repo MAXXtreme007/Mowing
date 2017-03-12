@@ -1,4 +1,18 @@
 /* ==================================================
+   General Layout
+================================================== */
+
+html,
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    position: relative
+}
+
+/* ==================================================
    Default Typography
 ================================================== */
 
@@ -10,6 +24,69 @@ h1
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+    margin: auto;
+}
+    a:hover {
+        text-decoration: none;
+        color: #FFF;
+    }
+
+i.fa {
+    font-size: 85px;
+    padding: 10px 0;
+    color: #D5D5D5;
+    margin: auto;
+}
+
+hr {
+    color: #000;
+}
+
+::selection
+{
+    background: #63913D;
+    color: #FFF;
+}
+::-moz-selection
+{
+    background: #63913D;
+    color: #FFF;
+}
+
+.s-header {
+    /*background-color: #61686B;
+    color: #FFF;*/
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.s-header label {
+    padding: 5px;
+    margin: 0;
+}
+
+th.text-center {
+    /*background-color: #7A7A7A;*/
+    /*color: #FFF;*/
+}
+
+td {
+    text-align: center;
+    height: 56px;
+    margin: auto;
+}
+
+.stretch {
+    padding: 0px;
+    height: 100%;
+}
+
 /* ==================================================
    General Layout Styles
 ================================================== */
@@ -17,7 +94,6 @@ h1
 .vertical-center
 {
     min-height: 100%;  /* Fallback for vh unit */
-    min-height: 100vh; /* You might also want to use height' property instead.
     /* Make it a flex container */
     display: -webkit-box;
     display: -moz-box;
@@ -78,6 +154,15 @@ h1
     color: #63913D;
 }
 
+.bg {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
 /* ==================================================
    Navbar
 ================================================== */
@@ -94,7 +179,7 @@ h1
 }
 
 .navbar-toggle {
-    margin: 0 10px 15px 0;
+    margin: 0 15px 25px 0;
 }
 
 .navbar-nav>li:hover {
@@ -117,12 +202,15 @@ li>h2 {
 
 /* mobile navbar */
 @media (max-width: 767px) {
+    .navbar-collapse {
+        min-height: 400px;
+    }
     #full-logo {
         display: none;
     }
     #mobile-logo {
         display: inline-block;
-        padding: 5px 0;
+        padding: 10px 0 5px 0;
     }
 }
 
@@ -143,7 +231,6 @@ li>h2 {
     .navbar-nav>li {
         display: table-cell;
         text-align: center;
-        width: 100px;
     }
 }
 @media (max-width: 768px){
@@ -169,34 +256,43 @@ li>h2 {
 .bg-image img {
     display: block;
     width: 100%;
-    max-height: 950px;
+    max-height: 1250px;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
 }
 
-#main-bg-lg {
-    background: url(../media/field-tree.png) no-repeat;
-    display: block;
-    width: 100%;
-    height: 950px;
-    background-size: contain;
-    background-attachment: fixed;
-    overflow: hidden;
+.bg-image h2 {
+    position: absolute;
+    text-align: center;
+    color: white;
 }
 
-@media screen and (min-width: 768px) {
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+    .bg-image img {
+        display: block;
+        width: 100%;
+        height: 665px;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow: hidden;
+    }
     .bg-image h2 {
-        position: absolute;
-        text-align: center;
         top: 50%;
         left: 0;
         right: 30%;
-        color: white;
     }
 }
 
-@media screen and (max-width: 768px) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+    .bg-image img {
+        height: 1220px;
+    }
     .bg-image h1 {
         text-align: center;
         font-size: 1.25em;
@@ -204,23 +300,180 @@ li>h2 {
         color: white;
     }
     .bg-image h2 {
-        position: absolute;
-        text-align: center;
         font-size: 1.25em;
         top: 82%;
         left: 0;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    .bg-image img {
+        height: 920px;
+    }
+    .bg-image h1 {
+        text-align: center;
+        font-size: 2.25em;
+        top: 20%;
         color: white;
+    }
+    .bg-image h2 {
+        font-size: 2.75em;
+        top: 75%;
+        left: 0;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    .bg-image img {
+        height: 975px;
     }
 }
 
 #mower {
     width: 350px;
 }
+
+/* ==================================================
+   Services
+================================================== */
+
+.jumbotron {
+    padding-bottom: 150px;
+}
+
+#services {
+    background-color: #FFFFFF;
+}
+
+#services-nav {
+    background-color: #63913D;
+    margin: 0px;
+}
+
+@media (min-width: 767px) {
+    #services-links > li {
+        width: auto;
+    }
+}
+
+#services-links>li {
+    padding: 15px 0;
+}
+
+#services-links>li>a {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+}
+    #services-links>li>a:hover {
+        color: #BED73D;
+    }
+
+#services-logo {
+    display: block;
+    padding: 10px 0;
+    height: 105px;
+    margin: 0 auto;
+}
+
+.darken {
+    background-color: #4A7824;
+}
+    .darken:hover {
+        background-color: #305E0A;
+    }
+
+.hover-hide>a>p {
+    display: none;
+}
+    .hover-hide:hover i {
+        display: block;
+        font-size: 55px;
+        padding: 3px 0;
+    }
+    .hover-hide:hover p {
+        display: block;
+    }
+    
+h1.title {
+    color: #664420;
+    text-decoration: underline;
+    -moz-text-decoration-color: #BED73D; /* Code for Firefox */
+    text-decoration-color: #BED73D;
+    -webkit-text-decoration-color: #BED73D;
+}
+
+.word-art {
+    display: inline-block;
+    width: 50px;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* ==================================================
+   Landscaping
+================================================== */
+
+.landscaping h2 {
+    font-size: 50px;
+}
+.landscaping li {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #4A7824;
+}
+
+/* ==================================================
+   About
+================================================== */
+
+.testimonials {
+    padding-top: 50px;
+    /*background-image: url("../media/trees.png");*/
+}
+#badge {
+    display: block;
+    text-align: center;
+    margin: -150px auto 0 auto;
+}
+
+@media only screen
+and (min-width : 321px) {
+    #badge {
+        width: 75%;
+        margin: -75px auto 0 auto;
+    }
+}
+
+.btn {
+    display: block;
+    padding: 20px;
+    background-color: #4A7824;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+    .btn:hover {
+        background-color: #305E0A;
+        color: #FFF;
+    }
+
 /* ==================================================
    Footer
 ================================================== */
 
 #grass {
+    background-color: #EEE;
     background-repeat: repeat-x;
     height: 300px;
+    margin-top: -30px;
 }
