@@ -446,7 +446,7 @@ h1.title {
 }
 
 @media only screen
-and (min-width : 321px) {
+and (max-width : 768px) {
     #badge {
         width: 75%;
         margin: -75px auto 0 auto;
