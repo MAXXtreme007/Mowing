@@ -83,7 +83,7 @@ td {
 }
 
 .stretch {
-    padding: 0px;
+    padding: 0;
     height: 100%;
 }
 
@@ -198,6 +198,14 @@ li>h2 {
     #mobile-logo {
         display: none;
     }
+    .dropdown:hover .dropdown-menu {
+        background-color: rgba(0,0,0,075);
+        display: block;
+        margin-top: 0;
+    }
+        .dropdown-menu>li>a {
+            color: #FFFFFF;
+        }
 }
 
 /* mobile navbar */
@@ -256,7 +264,7 @@ li>h2 {
 .bg-image img {
     display: block;
     width: 100%;
-    max-height: 1250px;
+    max-height: 1000px;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
@@ -310,7 +318,7 @@ and (max-device-width : 1024px) {
 @media only screen
 and (min-width : 1224px) {
     .bg-image img {
-        height: 920px;
+        height: 840px;
     }
     .bg-image h1 {
         text-align: center;
@@ -342,7 +350,7 @@ and (min-width : 1824px) {
 ================================================== */
 
 .jumbotron {
-    padding-bottom: 150px;
+    margin-bottom: 0;
 }
 
 #services {
@@ -442,7 +450,7 @@ h1.title {
 #badge {
     display: block;
     text-align: center;
-    margin: -150px auto 0 auto;
+    margin: 0 auto;
 }
 
 @media only screen
@@ -468,6 +476,19 @@ and (max-width : 768px) {
     }
 
 /* ==================================================
+   Photos
+================================================== */
+
+.mosaicflow__column {
+    float: left;
+}
+.mosaicflow__item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* ==================================================
    Footer
 ================================================== */
 
@@ -477,3 +498,41 @@ and (max-width : 768px) {
     height: 300px;
     margin-top: -30px;
 }
+
+#grass-title {
+    background-color: #8BC53D;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0 0 100px 0;
+}
+
+.grass-black {
+    background: linear-gradient(#8BC53D, #1B1D1D);
+}
+
+#transition {
+    height: 5em;
+}
+
+.black {
+    background-color: #1B1D1D;
+}
+
+.roots h2 {
+    color: #8BC53D;
+}
+
+.roots ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.roots a {
+    font-size: 1.4em;
+    color: #AAAAAA;
+}
+    .roots a:hover {
+        color: #FFFFFF;
+        text-decoration: underline;
+    }

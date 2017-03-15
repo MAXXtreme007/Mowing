@@ -50,7 +50,12 @@
                                     <li><a href="#About">About</a></li>
                                     <a id="full-logo" class="navbar-brand" href="#"><img src="media/logo.png" alt="Clean Cut Logo" width="120"></a>
                                     <li><a href="#Photos">Photos</a></li>
-                                    <li><a href="#Contact">Contact</a></li>
+                                    <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-trigger="hover" data-toggle="dropdown">Contact</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Get a Free Quote</a></li>
+                                            <li><a href="#">Online Payment</a></li>
+                                        </ul>
+                                    </li>
                                     <li class="visible-xs"><a href="#Pay">Pay</a></li>
                                 </ul>
                         </div>
@@ -72,22 +77,21 @@
 <div class="center dashboard-header">
     <div class="nav-wrapper">
         <nav id="services-nav" class="navbar navbar-inverse navbar-lower vertical-center" role="navigation">
-            <div class="col-lg-2 visible-lg darken hover-hide">
-                <img id="services-logo" src="media/logo-gray.png" onmouseover="this.src='media/logo.png'" onmouseout="this.src='media/logo-gray.png'" alt="Clean Cut Logo">
-            </div>
-            <div class="col-lg-8 container-fluid">
-                <ul id="services-links" class="nav navbar-nav navbar-center justified center">
-                    <li class="col-xs-6 col-sm-3"><a href="#Lawn">Lawn Care</a></li>
-                    <li class="col-xs-6 col-sm-3"><a href="#Landscaping">Landscaping</a></li>
-                    <li class="col-xs-6 col-sm-3"><a href="#Clean">Clean Up</a></li>
-                    <li class="col-xs-6 col-sm-3"><a href="#Snow">Snow Removal</a></li>
-                </ul>
-            </div>
-            <div class="col-lg-2 visible-lg darken hover-hide">
+            <div class="col-md-3 visible-md visible-lg darken hover-hide">
                 <a title="Phone" href="tel:4178385735">
                     <i class="fa fa-phone"></i>
                     <p>(417)-838-5735</p>
                 </a>
+            </div>
+            <div class="col-lg-6 container-fluid">
+                <ul id="services-links" class="nav navbar-nav navbar-center justified center">
+                    <li class="col-xs-6 col-sm-3"><a href="#lawn">Lawn Care</a></li>
+                    <li class="col-xs-6 col-sm-3"><a href="#landscaping">Landscaping</a></li>
+                    <li class="col-xs-6 col-sm-3"><a href="#clean">Clean Up</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 visible-md visible-lg darken hover-hide">
+                <img id="services-logo" src="media/logo-gray.png" onmouseover="this.src='media/logo.png'" onmouseout="this.src='media/logo-gray.png'" alt="Clean Cut Logo">
             </div>
         </nav>
     </div>
@@ -95,7 +99,8 @@
 <!-- ========================================Services======================================== -->
 <div class="services">
     <div class="bodycontainer">
-        <div id="services" class="jumbotron">
+        <!-- ========================================Lawn Care======================================== -->
+        <div id="lawn" class="jumbotron">
             <div class="container lawn-care">
                 <h1 class="title">Lawn Care</h1><hr>
                 <div class="col-md-7">
@@ -109,86 +114,51 @@
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <h3 class="work">We are committed to enhancing our clients’ most important investment by exceeding their lawn service needs with reliability and value. Imagine quality family time, rest and relaxation, and leaving the dirty work up to us.<br>Your business is just as important as ours. Like any other turf, the lawn around your business requires attention and service. Our flexibility and ability to customize a lawn care program for your property allows your business to make a great first impression.</h3>
+                    <h3 class="work">Everyone wants a good-looking yard, but let's be honest, not many people have the time to be able to get it looking that way week in and week out. We pride ourselves in offering quality work,  at a very reasonable price. We believe that our customer's satisfaction is the most important thing and we strive for that at all times.
+                    We hope you will give us the opportunity to make your yard look fabulous so you have time for things more enjoyable.</h3>
                 </div>
             </div>
-            <div class="container landscaping">
-                <h1 class="title">Landscaping</h1>
-                <hr>
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Weed Control</h2>
-                            <h3>WDATCP Certified & Licensed<br>Our weed control is included with your fertilization program. By eliminating dandelions and other major lawn weeds we can help keep your lawn looking its best.</h3>
-                        </div>
-                        <div class="col-sm-8">
-                            <img class="bg" src="media/weeding.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Pruning</h2>
-                            <h3>Pruning shrubs and trimming hedges is an art. Pruning the right way at the right time can enhance plant growth, reduce disease and insect infestations, improve flowering and fruiting and improve the overall health of the plant. Pruning correctly is different for each plant type and it would behoove you to do some research prior to attempting to prune your own shrubs and hedges.</h3>
-                        </div>
-                        <div class="col-sm-8">
+        </div>
+        <!-- ========================================Pruning======================================== -->
+        <div id="pruning" class="jumbotron">
+            <div class="container pruning">
+                <h1 class="title">Pruning</h1>
+                <div class="col-md-5">
+                    <h3 class="work">Pruning shrubs, bushes and plants is essential in making your yard look its best. When done correctly, pruning not only makes your yard look amazing, it also encourages healthy growth, which ensures ongoing beauty.</h3>
+                </div>
+                <div class="col-md-7">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
                             <img class="bg" src="media/hedging.jpg">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Dethatching</h2>
-                            <h3>Thatch is a layer of grass that develops at the base of the grass stems. A thick buildup can prevent essential water and nutrients from reaching the grass roots. We are able to remove any build-up of thatch.</h3>
-                        </div>
-                        <div class="col-sm-8">
-                            <img class="bg" src="media/dethatching.png">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Core Aeration Treatment</h2>
-                            <h3>Core aeration is an important practice to provide your lawn with the ultimate care. An aerated lawn will help control thatch, improve soil, improve root growth, and open airways for water and fertilizer to reach the lawn’s root system.</h3>
-                        </div>
-                        <div class="col-sm-8">
-                            <img class="bg" src="media/core-aeration.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Edging</h2>
-                            <h3>Edging walks, driveways and curbs will give your yard a neat, clean look that neighbors or businesses will envy.</h3>
-                        </div>
-                        <div class="col-sm-8">
-                            <img class="bg" src="media/edging.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Fertilization</h2>
-                            <h3>WDATCP Certified & Licensed<br>All lawns need nutrients to survive and sometimes they need a little help to get them. We can design several different programs to help your lawn grow to its fullest potential.</h3>
-                        </div>
-                        <div class="col-sm-8">
-                            <img class="bg" src="media/fertilization.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Power Washing</h2>
-                            <h3>All kinds of exteriors should be washed to remove the accumulation of mold, mildew, loose dirt, dust, and spider webs, etc. Have your house, deck , driveway, pool area or patios pressure washed by professionals.</h3>
-                        </div>
-                        <div class="col-sm-8">
-                            <img class="bg" src="media/power-wash.jpg">
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-4">
-                            <h2>Sod Installation</h2>
-                            <h3>Sodding is the fastest and easiest way to establish a lawn. Sod spends a year growing seed into sod so when it comes to your home, it has reached maturity. With proper care, your newly sodded yard will be ready for use in 3 weeks; newly seeded lawns take a great deal of time and nurturing to establish into mature, healthy lawn and cannot be used for months.</h3>
-                        </div>
-                        <div class="col-sm-8">
-                            <img class="bg" src="media/sod.jpg">
+                        <div class="item">
+                            <img class="bg" src="media/bg-2.jpg">
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- ========================================Edging======================================== -->
+        <div id="edging" class="jumbotron">
+            <div class="container edging">
+                <h1 class="title">Edging</h1><hr>
+                <div class="col-md-7">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="bg" src="media/edging.jpg">
+                        </div>
+                        <div class="item">
+                            <img class="bg" src="media/bg-2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h3 class="work">If you want the cleanest looking yard in the neighborhood, edging will get it there. We edge sidewalks, driveways and curbs. Your neighbors will be jealous.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- ========================================Clean Up======================================== -->
+        <div id="clean" class="jumbotron">
             <div class="container clean-up">
                 <h1 class="title">Clean Up</h1><hr>
                 <div class="col-md-7">
@@ -196,15 +166,6 @@
                 </div>
                 <div class="col-md-5">
                     <h3 class="work">Clean Cut Lawn Care has the ability to rake or blow to remove leaves and grass clippings from your lawn, landscaping, or flower beds in the spring or fall seasons.</h3>
-                </div>
-            </div>
-            <div class="container snow-removal">
-                <h1 class="title">Snow Removal</h1><hr>
-                <div class="col-md-5">
-                    <h3 class="work">Stay inside — warm and toasty! Let Clean Cut go outside in the cold and clear out the snow from your driveway, porch, and sidewalks. Keep yourself and your loved ones safe by removing icy walkways.<br>Servicing commercial and residential properties, Clean Cut Lawn Care will keep your driveway, sidewalks and steps clear of snow.</h3>
-                </div>
-                <div class="col-md-7">
-                    <img class="bg" src="media/snow.jpg">
                 </div>
             </div>
         </div>
@@ -318,13 +279,59 @@
         </div>
     </div>
 </div>
+<!-- ========================================Photos======================================== -->
+<div class="photos">
+    <div class="bodycontainer">
+        <div id="photos" class="jumbotron">
+            <div class="container photos">
+                <h1 class="title">Photos</h1><hr>
+            </div>
+
+        </div>
+    </div>
+</div>
 <!-- ========================================Footer======================================== -->
 <div class="row-fluid">
     <div class="bg-image">
         <img id="grass" src="media/grass.png">
     </div>
 </div>
-
+<h1 id="grass-title">CLEAN CUT LAWN CARE</h1>
+<div class="fullwidth grass-black clearfix">
+    <div id="transition" class="bodycontainer clearfix"></div>
+</div>
+<div class="fullwidth black clearfix">
+    <div id="contact" class="bodycontainer clearfix">
+        <div class="row">
+            <img src="media/logo.png" alt="Clean Cut Logo" width="120">
+        </div>
+        <div class="row">
+            <div class="col-md-3 roots">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Photos">Photos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 roots">
+                <h2>Services</h2>
+                <ul>
+                    <li><a href="#lawn">Lawn Care</a></li>
+                    <li><a href="#pruning">Pruning</a></li>
+                    <li><a href="#edging">Edging</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 roots">
+                <h2>Contact</h2>
+                <ul>
+                    <li><a href="#">Get a Free Quote</a></li>
+                    <li><a href="#">Online Payment</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
