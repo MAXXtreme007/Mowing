@@ -38,7 +38,7 @@ a {
 i.fa {
     font-size: 85px;
     padding: 10px 0;
-    color: #D5D5D5;
+    color: #8BC53D;
     margin: auto;
 }
 
@@ -382,13 +382,28 @@ and (min-width : 1824px) {
         color: #BED73D;
     }
 
-#services-logo {
+#free-quote-logo img {
     display: block;
     padding: 10px 0;
     height: 105px;
     margin: 0 auto;
 }
+    #free-quote-logo:hover img {
+        height: 60px;
+    }
 
+.desaturate img {
+    filter: grayscale(100%);
+}
+    .desaturate:hover img {
+        filter: grayscale(0%);
+    }
+.desaturate i.fa {
+    filter: grayscale(100%);
+}
+.desaturate:hover i.fa {
+    filter: grayscale(0%);
+}
 .darken {
     background-color: #4A7824;
 }

@@ -50,7 +50,7 @@
                                     <li><a href="#About">About</a></li>
                                     <a id="full-logo" class="navbar-brand" href="#"><img src="media/logo.png" alt="Clean Cut Logo" width="120"></a>
                                     <li><a href="#Photos">Photos</a></li>
-                                    <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-trigger="hover" data-toggle="dropdown">Contact</a>
+                                    <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-trigger="hover" data-toggle="dropdown">Connect</a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#">Get a Free Quote</a></li>
                                             <li><a href="#">Online Payment</a></li>
@@ -77,7 +77,7 @@
 <div class="center dashboard-header">
     <div class="nav-wrapper">
         <nav id="services-nav" class="navbar navbar-inverse navbar-lower vertical-center" role="navigation">
-            <div class="col-md-3 visible-md visible-lg darken hover-hide">
+            <div class="col-md-3 visible-md visible-lg darken desaturate hover-hide">
                 <a title="Phone" href="tel:4178385735">
                     <i class="fa fa-phone"></i>
                     <p>(417)-838-5735</p>
@@ -90,8 +90,11 @@
                     <li class="col-xs-6 col-sm-3"><a href="#clean">Clean Up</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 visible-md visible-lg darken hover-hide">
-                <img id="services-logo" src="media/logo-gray.png" onmouseover="this.src='media/logo.png'" onmouseout="this.src='media/logo-gray.png'" alt="Clean Cut Logo">
+            <div id="free-quote-logo" class="col-md-3 visible-md visible-lg darken desaturate hover-hide">
+                <a title="Free Quote" href="quote.html">
+                    <img src="media/logo.png" alt="Clean Cut Logo">
+                    <p>Get a Free Quote</p>
+                </a>
             </div>
         </nav>
     </div>
@@ -307,14 +310,6 @@
         </div>
         <div class="row">
             <div class="col-md-3 roots">
-                <h2>Company</h2>
-                <ul>
-                    <li><a href="#Services">Services</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Photos">Photos</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 roots">
                 <h2>Services</h2>
                 <ul>
                     <li><a href="#lawn">Lawn Care</a></li>
@@ -322,11 +317,21 @@
                     <li><a href="#edging">Edging</a></li>
                 </ul>
             </div>
+            <div class="col-md-6 roots">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Photos">Photos</a></li>
+                    <li><a href="#Testimonials">Testimonials</a></li>
+                </ul>
+            </div>
             <div class="col-md-3 roots">
-                <h2>Contact</h2>
+                <h2>Connect</h2>
                 <ul>
                     <li><a href="#">Get a Free Quote</a></li>
                     <li><a href="#">Online Payment</a></li>
+                    <li><a href="https://www.thumbtack.com/-Springfield-MO/service/2386347">Leave a Review</a></li>
                 </ul>
             </div>
         </div>
@@ -340,6 +345,7 @@
 <script src="js/uikit.scrollspy.js"></script>
 <script src="js/autocomplete.js"></script>
 <script src="js/owl.carousel.js"></script>
+<script src="js/scrollOpacity.js"></script>
 <!--<script src="js/skrollr.min.js"></script>-->
 <!--<script src="js/skrollr.stylesheets.min.js"></script>-->
 <script type="text/javascript">
