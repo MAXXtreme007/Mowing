@@ -12,6 +12,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Clean Cut Lawn Care is committed to the highest standards of excellence. In everything we do, we hold ourselves to the highest quality standards, 100% honesty all the time, and being right on time, every time. Clean Cut's customers have spoken and you can see their testimonials by visiting Clean Cut's Thumbtack profile. Clean Cut Lawn Care has received the Top Pro badge from Thumbtack — an award given only to Thumbtack's most dedicated and highly-rated professionals—in fact, less than 3% of Thumbtack pros currently qualify.
 baseurl: "/index.html" # the subpath of your site, e.g. /blog
 url: "http://www.springfieldcleancut.com" # the base hostname & protocol for your site
+url: https://www.springfieldcleancut.com   # with the https protocol
+enforce_ssl: www.springfieldcleancut.com   # without any protocol
 github_username:  MAXXtreme007
 
 # Build settings
