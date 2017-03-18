@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953c0012-76da-4c7a-b400-5e9b753a4703" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/smoothscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/stickynav.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/Philip.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/Philip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/Scag.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/clean-up.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/core-aeration.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/dethatching.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/edging.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/fertilization.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/field-scaled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/field-tree-mobile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/field.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/hedging.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/lawn-mower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/logo-mower.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/power-wash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/snow.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/sod.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/trees.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/weed-control.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/yard3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/yard4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/yard5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/zero-turn.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/badge.png" afterPath="$PROJECT_DIR$/media/badge.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/owl.carousel.js" afterPath="$PROJECT_DIR$/js/owl.carousel.js" />
-    </list>
+    <list default="true" id="953c0012-76da-4c7a-b400-5e9b753a4703" name="Default" comment="" />
     <ignored path="Mowing.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +22,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5192308">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-627">
-                  <caret line="383" column="10" lean-forward="false" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#button#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -95,7 +64,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="smoothscroll.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="smoothscroll.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/smoothscroll.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="825">
@@ -166,7 +135,6 @@
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/js/scrollOpacity.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/backup-index.html" />
         <option value="$PROJECT_DIR$/js/analytics.js" />
         <option value="$PROJECT_DIR$/js/owl.carousel.js" />
@@ -174,6 +142,7 @@
         <option value="$PROJECT_DIR$/js/smoothscroll.js" />
         <option value="$PROJECT_DIR$/css/quote-sheet.css" />
         <option value="$PROJECT_DIR$/quote.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -376,12 +345,12 @@
       <workItem from="1489552064447" duration="5735000" />
       <workItem from="1489605312749" duration="20321000" />
       <workItem from="1489792817301" duration="2881000" />
-      <workItem from="1489797529598" duration="9261000" />
+      <workItem from="1489797529598" duration="9782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84727000" />
+    <option name="totallyTimeSpent" value="85248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -652,26 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="383" column="10" lean-forward="false" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#button#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/stickynav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -703,6 +652,26 @@
         <state relative-caret-position="439">
           <caret line="546" column="13" lean-forward="true" selection-start-line="546" selection-start-column="13" selection-end-line="546" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#button#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
