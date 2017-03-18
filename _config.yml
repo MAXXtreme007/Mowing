@@ -1,0 +1,20 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Springfield Clean Cut Lawn Care
+email: springfieldcleancut@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Clean Cut Lawn Care is committed to the highest standards of excellence. In everything we do, we hold ourselves to the highest quality standards, 100% honesty all the time, and being right on time, every time. Clean Cut's customers have spoken and you can see their testimonials by visiting Clean Cut's Thumbtack profile. Clean Cut Lawn Care has received the Top Pro badge from Thumbtack — an award given only to Thumbtack's most dedicated and highly-rated professionals—in fact, less than 3% of Thumbtack pros currently qualify.
+baseurl: "/index.html" # the subpath of your site, e.g. /blog
+url: "http://www.springfieldcleancut.com" # the base hostname & protocol for your site
+github_username:  MAXXtreme007
+
+# Build settings
+markdown: kramdown
+
+theme: jekyll-theme-cayman
