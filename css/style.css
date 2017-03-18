@@ -118,12 +118,14 @@ td {
     -webkit-justify-content : center;
     justify-content : center;
 }
+
 .fullwidth
 {
     width: 100%;
     padding: 40px 30px;
     min-width: 280px;
 }
+
 .fullwidth .bodycontainer
 {
     margin: 0 auto;
@@ -131,12 +133,14 @@ td {
     max-width: 1000px;
     text-align: center;
 }
+
 .carousel-indicators li
 {
     width: 15px;
     height: 15px;
     background-color: #C8FB49;
 }
+
 .carousel-indicators:active
 {
     width: 20px;
@@ -346,7 +350,7 @@ and (min-width : 1824px) {
 }
 
 /* ==================================================
-   Services
+   Services Navbar
 ================================================== */
 
 .jumbotron {
@@ -440,7 +444,7 @@ h1.title {
 }
 
 /* ==================================================
-   Landscaping
+   Lawn Care
 ================================================== */
 
 .landscaping h2 {
@@ -462,6 +466,7 @@ h1.title {
     padding-top: 100px;
     /*background-image: url("../media/trees.png");*/
 }
+
 #badge {
     display: block;
     text-align: center;
@@ -474,6 +479,20 @@ and (max-width : 768px) {
         width: 75%;
         margin: -75px auto 0 auto;
     }
+}
+
+#quotation-left {
+    text-align: right;
+    font-size: 80px;
+    font-weight: bold;
+    color: #8BC53D;
+}
+
+#quotation-right {
+    text-align: left;
+    font-size: 80px;
+    font-weight: bold;
+    color: #8BC53D;
 }
 
 .btn {

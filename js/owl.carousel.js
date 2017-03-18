@@ -200,13 +200,13 @@
 		merge: false,
 		mergeFit: true,
 		autoWidth: false,
-		autoHeight: true,
+		autoHeight: false,
 
 		startPosition: 0,
 		rtl: false,
 
 		smartSpeed: 250,
-		fluidSpeed: false,
+		fluidSpeed: true,
 		dragEndSpeed: false,
 
 		autoplay: true,
