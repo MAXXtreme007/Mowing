@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953c0012-76da-4c7a-b400-5e9b753a4703" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.mosaicflow.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/scrollOpacity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/skrollr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/stickynav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/fall-min.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/media/striped-lawn.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/owl/owl.carousel.css" afterPath="$PROJECT_DIR$/css/owl/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="Mowing.iws" />
@@ -34,8 +25,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3944">
-              <caret line="867" column="69" lean-forward="true" selection-start-line="867" selection-start-column="69" selection-end-line="867" selection-end-column="69" />
+            <state relative-caret-position="17">
+              <caret line="11" column="90" lean-forward="true" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -356,12 +347,12 @@
       <workItem from="1489552064447" duration="5735000" />
       <workItem from="1489605312749" duration="20321000" />
       <workItem from="1489792817301" duration="2881000" />
-      <workItem from="1489797529598" duration="45049000" />
+      <workItem from="1489797529598" duration="45195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120515000" />
+    <option name="totallyTimeSpent" value="120661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -742,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3944">
-          <caret line="867" column="69" lean-forward="true" selection-start-line="867" selection-start-column="69" selection-end-line="867" selection-end-column="69" />
+        <state relative-caret-position="17">
+          <caret line="11" column="90" lean-forward="true" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
