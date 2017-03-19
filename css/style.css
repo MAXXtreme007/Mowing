@@ -1,6 +1,6 @@
 html,
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     overflow-y: auto;
 }
 
@@ -30,10 +30,7 @@ a:hover {
     color: #FFF;
 }
 
-i.fa {
-    font-size: 85px;
-    padding: 10px 0;
-    color: #8BC53D;
+i.material-icons {
     margin: auto;
 }
 
@@ -144,10 +141,19 @@ hr {
 }
 
 .navbar-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    line-height: 15px;
+    padding: auto;
+    margin: auto;
+    font-size: 1.2em;
+    line-height: 1.2em;
     color: #000;
+}
+
+.navbar .dropdown-menu a {
+    text-align: center;
+    margin: auto;
+    font-size: .9375rem;
+    font-weight: 300;
+    padding: 1rem
 }
 
 .navbar-toggle {
@@ -159,8 +165,6 @@ hr {
     margin: 0;
 }
 
-
-
 li>h2 {
     color: #63913D;
 }
@@ -169,6 +173,12 @@ li>h2 {
 @media (min-width: 768px) {
     #full-logo {
         display: inline-block;
+        width: 100%;
+        padding: 0 20px;
+        margin: auto;
+    }
+    #full-logo-img {
+        margin: auto;
     }
     #mobile-logo {
         display: none;
@@ -177,6 +187,7 @@ li>h2 {
         background-color: rgba(0,0,0,1);
         display: block;
         margin-top: 0;
+        width: 200px;
     }
     .dropdown-menu>li>a {
         color: #FFFFFF;
@@ -199,7 +210,10 @@ li>h2 {
         text-align: center;
     }
     .main-nav li {
-        width: 125px;
+        width: 180px;
+        height: 50px;
+        padding: 0;
+        margin: auto;
     }
 }
 
@@ -254,6 +268,24 @@ and (max-width : 768px) {
     text-align: left;
 }
 
+.section .section-heading {
+    font-size: 3.5em;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.rounded-circle {
+    width: 150px;
+    border-radius: 50% !important;
+}
+
+i.material-icons.quote {
+    font-size: 30px;
+    color: #4A7824;
+}
+
 #thumbtack {
     background-color: #4A7824;
     border: 0;
@@ -264,133 +296,29 @@ and (max-width : 768px) {
     }
 
 .stars {
-    width: 275px !important;
+    font-size: 40px;
+    color: #FFDF00;
+    text-align: center;
     margin: auto;
 }
 
-#stars-left {
-    text-align: right;
+.carousel {
+    height: auto;
 }
 
-#stars-right {
-    text-align: left;
-}
-
-#quotation-left {
-    text-align: right;
-    font-size: 80px;
-    font-weight: bold;
-    color: #8BC53D;
-}
-
-#quotation-right {
-    text-align: left;
-    font-size: 80px;
-    font-weight: bold;
-    color: #8BC53D;
-}
-
-.owl-dots{
+.carousel-indicators {
     display: none;
 }
 
-/* ==================================================
-   Services Navbar
-================================================== */
-
-#services {
-    background-color: #FFFFFF;
-}
-
-#services-nav {
-    background-color: #63913D;
-    margin: 0;
-}
-
-@media (min-width: 767px) {
-    #services-links > li {
-        width: auto;
-    }
-}
-
-#services-links>li {
-    padding: 15px 0;
-}
-
-#services-links>li>a {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: bold;
-    color: #FFF;
-}
-#services-links>li>a:hover {
-    color: #BED73D;
-}
-
-#free-quote-logo img {
-    display: block;
-    padding: 10px 0;
-    height: 105px;
-    margin: 0 auto;
-}
-#free-quote-logo:hover img {
-    height: 60px;
-}
-
-.desaturate img {
-    filter: grayscale(100%);
-}
-.desaturate:hover img {
-    filter: grayscale(0%);
-}
-.desaturate i.fa {
-    filter: grayscale(100%);
-}
-.desaturate:hover i.fa {
-    filter: grayscale(0%);
-}
-.darken {
-    background-color: #4A7824;
-}
-.darken:hover {
-    background-color: #305E0A;
-}
-
-.hover-hide>a>p {
-    display: none;
-}
-.hover-hide:hover i {
-    display: block;
-    font-size: 55px;
-    padding: 3px 0;
-}
-.hover-hide:hover p {
-    display: block;
+.owl-dots {
+    width: 100%;
 }
 
 /* ==================================================
-   Popover
+   Services Parallax
 ================================================== */
 
-.popover{
-    width:240px;
-    height:160px;
-    text-align: center;
-}
-.popover-title {
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.popover-content {
-    font-size: 12px;
-}
-
-/* ==================================================
-   Lawn Care Parallax
-================================================== */
-
-#lawn-care-parallax {
+#services-parallax {
     padding-top: 180px;
     background: url("../media/bg-2.jpg");
     background-size: cover;
@@ -400,10 +328,10 @@ and (max-width : 768px) {
 }
 
 /* ==================================================
-   Pruning Parallax
+   Photos Parallax
 ================================================== */
 
-#pruning-parallax {
+#photos-parallax {
     padding-top: 180px;
     background: url("../media/pruning2.png");
     background-size: cover;
@@ -455,13 +383,6 @@ and (max-width : 768px) {
    Footer
 ================================================== */
 
-#footer {
-    background: url("../media/grass.png");
-    background-repeat: repeat-x;
-    height: 300px;
-    margin-top: -30px;
-}
-
 #grass-title {
     background-color: #8BC53D;
     color: #FFFFFF;
@@ -498,4 +419,42 @@ and (max-width : 768px) {
 .roots a:hover {
     color: #FFFFFF;
     text-decoration: underline;
+}
+
+/* ==================================================
+   Modal
+================================================== */
+
+.s-header {
+    background-color: rgba(100,100,100,0.5);
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.s-header label {
+    padding: 5px;
+    margin: 0px;
+}
+
+.modal.bottom-sheet {
+    max-height: 75%;
+}
+
+label {
+    width: 100%;
+    margin: 0px;
+}
+
+.btn-group-inline {
+    height: 34px;
+}
+
+.btn {
+    margin: 0;
+}
+
+#pay-submit {
+    padding: 0 2rem;
 }

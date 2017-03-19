@@ -32,6 +32,7 @@
     position: relative;
     min-height: 1px;
     float: left;
+    padding: 0 20px;
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
@@ -39,6 +40,8 @@
     display: block;
     width: 100%;
     -webkit-transform-style: preserve-3d; }
+  .owl-nav {
+      display: none;  }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
