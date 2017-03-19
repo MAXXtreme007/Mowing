@@ -328,38 +328,20 @@ i.material-icons.quote {
 }
 
 /* ==================================================
+   Services
+================================================== */
+
+.service-container:not(:first-of-type) {
+    padding-top: 5em;
+}
+
+/* ==================================================
    Photos Parallax
 ================================================== */
 
 #photos-parallax {
     padding-top: 180px;
     background: url("../media/pruning2.png");
-    background-size: cover;
-    background-position: center right;
-    background-attachment: fixed;
-    min-height: 1000px;
-}
-
-/* ==================================================
-   Edging Parallax
-================================================== */
-
-#edging-parallax {
-    padding-top: 180px;
-    background: url("../media/edging2.png");
-    background-size: cover;
-    background-position: center right;
-    background-attachment: fixed;
-    min-height: 1000px;
-}
-
-/* ==================================================
-   Clean Up Parallax
-================================================== */
-
-#clean-parallax {
-    padding-top: 180px;
-    background: url("../media/forest.jpg");
     background-size: cover;
     background-position: center right;
     background-attachment: fixed;
