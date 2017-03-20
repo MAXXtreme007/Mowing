@@ -226,7 +226,7 @@ li>h2 {
         display: none;
     }
     #mobile-logo {
-        display: block;
+        display: inline-block;
         padding: 10px 0 5px 0;
     }
     .navbar-header {
@@ -260,7 +260,7 @@ li>h2 {
 and (max-width : 768px) {
     #badge {
         width: 75%;
-        margin: -50px auto 0 auto;
+        margin: -35px auto 0 auto;
     }
 }
 
@@ -319,6 +319,27 @@ i.material-icons.quote {
 
 .owl-dots {
     width: 100%;
+}
+
+.testimonials span {
+    margin: 1.5em 0;
+}
+
+@media (max-width: 767px) {
+    .testimonials .card-content {
+        text-align: center;
+        color: inherit;
+        margin: auto;
+        height: 380px;
+    }
+}
+@media (min-width: 768px) {
+    .testimonials .card-content {
+        text-align: center;
+        color: inherit;
+        margin: auto;
+        height: 280px;
+    }
 }
 
 /* ==================================================
