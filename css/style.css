@@ -294,6 +294,13 @@ i.material-icons.quote {
     #thumbtack:hover {
         background-color: #305E0A;
     }
+#thumbtack-link {
+    font-size: 21px;
+    font-weight: 200;
+    color: #000;
+    text-decoration: underline;
+    text-transform: none;
+}
 
 .stars {
     font-size: 40px;
@@ -386,6 +393,8 @@ i.material-icons.quote {
 
 .roots h2 {
     color: #8BC53D;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .roots ul {
@@ -395,8 +404,9 @@ i.material-icons.quote {
 }
 
 .roots a {
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #AAAAAA;
+    text-transform: none;
 }
 .roots a:hover {
     color: #FFFFFF;
