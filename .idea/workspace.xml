@@ -2,8 +2,224 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953c0012-76da-4c7a-b400-5e9b753a4703" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/docs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/font/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/Chingolo_Pro.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/Chingolo_Pro.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/Chingolo_Pro.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/Chingolo_Pro.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/m-styles.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/pygments-manni.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icon/114.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icon/144.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icon/57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/icon/72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/30plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/30plus@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/HS049.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/caret_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/designed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/designed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/designee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/ios_hero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/ios_thum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/ios_titl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/itunesra.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/itunesra.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/itunesrb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/learn_mo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/learn_mp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/learn_mq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/macbooka.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/macbooka.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/macbookb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/macpro_h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/macpro_t.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/macpro_t.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/osx_hero.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/osx_thum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/osx_titl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/watch_ad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/watch_ke.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/watch_kf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/watch_kg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/wwdc_her.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/wwdc_thu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/apple_images/wwdc_tit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/browsers.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/browsers@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/bande.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/cloud.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/cloud2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/cloud3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/cursor-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/home_cont_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/smartphone-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/sp2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/captions/video-cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/curved_wooden.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/curved_wooden_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dark_mosaic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/dark_wood.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/doc-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/doc-icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/earnings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/earnings@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/animate-slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/animate-slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/apple_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/apple_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/blocks.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/blocks@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/carousels.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/carousels@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/facebook_paper_style.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/facebook_paper_style@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/flickr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/flickr@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/fullscreen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/fullscreen2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/fullscreen2@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/fullscreen@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/fullwidth_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/fullwidth_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/grid_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/grid_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/kenburns-slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/kenburns-slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/lightbox_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/lightbox_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/mixed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/mixed@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/nearby.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/nearby@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/panorama_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/panorama_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/parallax-slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/parallax-slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/partial_view_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/partial_view_slider2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/partial_view_slider2@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/partial_view_slider3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/partial_view_slider3@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/partial_view_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/portfolio_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/portfolio_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/rotating_image_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/rotating_image_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/tabs.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/tabs@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/vertical_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/vertical_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/video_slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/examples/video_slider@2x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/flat-iphone-mockup-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/flat-iphone-mockup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fps_before_after.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/fps_before_after@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/gradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/home_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/introducing_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ipadmini_white_angle1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/ipadmini_white_angle1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/matte.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/mightyslider_logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/network_time.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/bird9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/cage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/parallax/man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/pattern.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/pattern_2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/pattern_3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/photos/358263658_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/photos/387357227_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/photos/70245817_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/photos/7857376996_b7cb6c81a5_k_p1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/photos/7857376996_b7cb6c81a5_k_p2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/photos/office.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/photos/office_blur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/present_0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/present_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/present_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/present_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/qrcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/qrcode@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/right@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/thumbnail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/video_player.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/video_player@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/css_browser_selector.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/freewall.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/google-code-prettify/lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/google-code-prettify/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/google-code-prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/css/closedhand.cur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/css/ilightbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/js/ilightbox.packed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/js/jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/alert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/arrow-next-icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/arrow-next-icon-ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/arrow-prev-icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/arrow-prev-icon-ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/arrows_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/arrows_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/caption-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/fullscreen-icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/fullscreen-icon-ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/pause-icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/pause-icon-ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/play-icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/play-icon-ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/preloader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/skin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/social-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/thumb-overlay-play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/x-mark-icon-64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/ilightbox/metro-black-skin/x-mark-icon-ie.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.easing-1.3.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.mobile.just-touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.mousewheel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.requestAnimationFrame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.scrollto-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.simplr.smoothscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.stellar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/retina.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/smoothscroll.js" afterPath="$PROJECT_DIR$/js/smoothscroll.js" />
     </list>
     <ignored path="Mowing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +242,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+            <state relative-caret-position="599">
+              <caret line="776" column="29" lean-forward="true" selection-start-line="776" selection-start-column="29" selection-end-line="776" selection-end-column="29" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#button#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -45,8 +262,22 @@
                 <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="423" column="18" lean-forward="false" selection-start-line="423" selection-start-column="18" selection-end-line="423" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,16 +287,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="93" column="12" lean-forward="true" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -84,8 +305,8 @@
       <file leaf-file-name="materialize.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/materialize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="5030" column="14" lean-forward="false" selection-start-line="5030" selection-start-column="14" selection-end-line="5030" selection-end-column="14" />
+            <state relative-caret-position="85">
+              <caret line="96" column="17" lean-forward="false" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -124,7 +345,6 @@
       <find>parallax</find>
       <find>lawn</find>
       <find>full</find>
-      <find>btn</find>
       <find>carousel</find>
       <find>navbar</find>
       <find>container</find>
@@ -132,6 +352,7 @@
       <find>first</find>
       <find>service</find>
       <find>jumbotron</find>
+      <find>btn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,11 +376,12 @@
         <option value="$PROJECT_DIR$/js/mightyslider.min.js" />
         <option value="$PROJECT_DIR$/js/partial-view-slider.js" />
         <option value="$PROJECT_DIR$/css/partial-view-slider.css" />
-        <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/css/owl/owl.carousel.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/smoothscroll.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/materialize.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -219,20 +441,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Mowing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mowing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mowing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,12 +573,12 @@
       <workItem from="1489552064447" duration="5735000" />
       <workItem from="1489605312749" duration="20321000" />
       <workItem from="1489792817301" duration="2881000" />
-      <workItem from="1489797529598" duration="54477000" />
+      <workItem from="1489797529598" duration="57175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129943000" />
+    <option name="totallyTimeSpent" value="132641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -379,10 +587,10 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -419,6 +627,7 @@
           <caret line="88" column="49" lean-forward="false" selection-start-line="88" selection-start-column="49" selection-end-line="88" selection-end-column="49" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -434,7 +643,11 @@
             <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -480,6 +693,7 @@
           <caret line="72" column="85" lean-forward="false" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -495,7 +709,11 @@
             <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/materialize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="5030" column="14" lean-forward="false" selection-start-line="5030" selection-start-column="14" selection-end-line="5030" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/owl/owl.carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -754,18 +964,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="93" column="12" lean-forward="true" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
+        <state relative-caret-position="368">
+          <caret line="423" column="18" lean-forward="false" selection-start-line="423" selection-start-column="18" selection-end-line="423" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="96" column="17" lean-forward="false" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="55" column="43" lean-forward="false" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+        <state relative-caret-position="599">
+          <caret line="776" column="29" lean-forward="true" selection-start-line="776" selection-start-column="29" selection-end-line="776" selection-end-column="29" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#button#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -781,7 +1016,11 @@
             <element signature="n#div#3;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#9;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

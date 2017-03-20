@@ -417,16 +417,16 @@ i.material-icons.quote {
 
 .s-header label {
     padding: 5px;
-    margin: 0px;
+    margin: 0;
 }
 
 .modal.bottom-sheet {
-    max-height: 75%;
+    max-height: 80%;
 }
 
 label {
     width: 100%;
-    margin: 0px;
+    margin: 0;
 }
 
 .btn-group-inline {
@@ -438,5 +438,5 @@ label {
 }
 
 #pay-submit {
-    padding: 0 2rem;
+    padding: 1em 0;
 }
