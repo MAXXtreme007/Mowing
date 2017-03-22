@@ -392,26 +392,13 @@ and (min-width : 1440px) {
    Services Parallax
 ================================================== */
 
-@media (max-width: 767px) {
-    #services-parallax {
-        padding-top: 180px;
-        background: url("../media/bg-2.jpg");
-        background-size: cover;
-        background-position: center right;
-        background-attachment: fixed;
-        min-height: 1000px;
-    }
-}
-
-@media (min-width: 768px) {
-    #services-parallax {
-        padding-top: 180px;
-        background: url("../media/bg-2.jpg");
-        background-size: cover;
-        background-position: center right;
-        background-attachment: fixed;
-        min-height: 1000px;
-    }
+#services-parallax {
+    padding-top: 180px;
+    background: url("../media/blower.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    background-attachment: fixed;
+    min-height: 1000px;
 }
 
 /* ==================================================
@@ -434,7 +421,7 @@ and (min-width : 1440px) {
     padding-top: 180px;
     background: url("../media/pruning2.png");
     background-size: cover;
-    background-position: center right;
+    background-position: center center;
     background-attachment: fixed;
     min-height: 1000px;
 }
