@@ -9,10 +9,10 @@ $(document).ready(function() {
     }
 
     $( 'a[href^="#"]' ).click(function() {
-        // only do this if navigation is visible, otherwise you see jump in navigation while collapse() is called
-        if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible") ) {
-            $('.navbar-collapse').collapse('toggle');
-        }
+    // only do this if navigation is visible, otherwise you see jump in navigation while collapse() is called
+    if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible") ) {
+        $('.navbar-collapse').collapse('toggle');
+    }
 });
 
 $( 'a[href^="#"]:not(.modal-link)' ).click(function() {

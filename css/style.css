@@ -492,10 +492,10 @@ and (min-width : 1440px) {
     color: #AAAAAA;
     text-transform: none;
 }
-.roots a:hover {
-    color: #FFFFFF;
-    text-decoration: underline;
-}
+    .roots a:hover {
+        color: #FFFFFF;
+        text-decoration: underline;
+    }
 
 /* ==================================================
    Modal
@@ -555,3 +555,37 @@ label {
 #pay-submit {
     padding: 1em 0;
 }
+
+/* ==================================================
+   Social Links
+================================================== */
+
+footer #socialmedia ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+@media only screen
+and (max-width : 360px) {
+    footer #socialmedia ul li {
+        margin: 0 4px;
+    }
+}
+
+footer #socialmedia ul li a img {
+    width: 40px;
+}
+
+#socialmedia ul {
+    margin: 0;
+    padding: 2em 0 1em;
+}
+
+
+.desaturate {
+    filter: grayscale(100%);
+}
+    .desaturate:hover {
+        filter: grayscale(0%);
+    }
