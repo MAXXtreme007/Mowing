@@ -2,11 +2,9 @@ html,
 body {
     overflow-x: hidden !important;
     overflow-y: auto;
-}
-
-body {
     position: relative
 }
+
 
 /* ==================================================
    Default Typography
@@ -25,6 +23,7 @@ a {
     font-size: 25px;
     margin: auto;
 }
+
 a:hover {
     text-decoration: none;
     color: #FFF;
@@ -42,10 +41,12 @@ hr {
     background: #63913D;
     color: #FFF;
 }
+
 ::-moz-selection {
     background: #63913D;
     color: #FFF;
 }
+
 
 /* ==================================================
    Layout
@@ -57,24 +58,23 @@ hr {
     text-align: center;
 }
 
-.vertical-center
-{
+.vertical-center {
     min-height: 100%;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-box-align : center;
-    -webkit-align-items : center;
-    -moz-box-align : center;
-    -ms-flex-align : center;
-    align-items : center;
-    -webkit-box-pack : center;
-    -moz-box-pack : center;
-    -ms-flex-pack : center;
-    -webkit-justify-content : center;
-    justify-content : center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .tab {
@@ -100,15 +100,13 @@ hr {
     margin-bottom: 0;
 }
 
-.fullwidth
-{
+.fullwidth {
     width: 100%;
     padding: 40px 30px;
     min-width: 280px;
 }
 
-.fullwidth .bodycontainer
-{
+.fullwidth .bodycontainer {
     margin: 0 auto;
     width: 100%;
     max-width: 1000px;
@@ -125,6 +123,7 @@ hr {
         position: relative;
     }
 }
+
 @media (min-width: 768px) {
     .inner {
         min-height: 1100px;
@@ -132,12 +131,13 @@ hr {
     }
 }
 
+
 /* ==================================================
    Navbar
 ================================================== */
 
 .navbar-inverse {
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .navbar-nav>li>a {
@@ -160,7 +160,9 @@ hr {
     margin: 0 15px 25px 0;
 }
 
+
 /*Center company logo in navbar*/
+
 .navbar>.container-fluid .navbar-brand {
     margin: 0;
 }
@@ -169,7 +171,9 @@ li>h2 {
     color: #63913D;
 }
 
+
 /* standard navbar */
+
 @media (min-width: 768px) {
     #full-logo {
         display: inline-block;
@@ -184,7 +188,7 @@ li>h2 {
         display: none;
     }
     .dropdown:hover .dropdown-menu {
-        background-color: rgba(0,0,0,1);
+        background-color: rgba(0, 0, 0, 1);
         display: block;
         margin-top: 0;
         width: 200px;
@@ -217,7 +221,9 @@ li>h2 {
     }
 }
 
+
 /* mobile navbar */
+
 @media (max-width: 767px) {
     .navbar-collapse {
         min-height: 400px;
@@ -236,6 +242,7 @@ li>h2 {
         padding: 10px;
     }
 }
+
 
 /* ==================================================
    Header
@@ -256,8 +263,7 @@ li>h2 {
     margin: -10px auto 10px;
 }
 
-@media only screen
-and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
     #badge {
         width: 75%;
         margin: -35px auto 0 auto;
@@ -291,9 +297,11 @@ i.material-icons.quote {
     border: 0;
     margin: 0 auto;
 }
-    #thumbtack:hover {
-        background-color: #305E0A;
-    }
+
+#thumbtack:hover {
+    background-color: #305E0A;
+}
+
 #thumbtack-link {
     font-size: 21px;
     font-weight: 200;
@@ -321,9 +329,9 @@ i.material-icons.quote {
     padding: 0 1em;
 }
 
-    .photos .item h2 {
-        font-size: 1.75em;
-    }
+.photos .item h2 {
+    font-size: 1.75em;
+}
 
 .owl-dots {
     width: 100%;
@@ -332,6 +340,7 @@ i.material-icons.quote {
 .testimonials span {
     margin: 1.5em 0;
 }
+
 #testimonials-description {
     padding: 0 1.2em;
 }
@@ -342,8 +351,7 @@ i.material-icons.quote {
     margin: auto;
 }
 
-@media only screen
-and (max-width : 600px) {
+@media only screen and (max-width: 600px) {
     .testimonials .card-content {
         height: 380px;
     }
@@ -351,17 +359,17 @@ and (max-width : 600px) {
         font-size: 1.2em;
     }
 }
-@media only screen
-and (min-width : 601px) {
+
+@media only screen and (min-width: 601px) {
     .testimonials .card-content {
         height: 380px;
     }
-        .testimonials .card-content p {
-            font-size: 1.4em;
-        }
+    .testimonials .card-content p {
+        font-size: 1.4em;
+    }
 }
-@media only screen
-and (min-width : 768px) {
+
+@media only screen and (min-width: 768px) {
     .testimonials .card-content {
         height: 360px;
     }
@@ -369,17 +377,17 @@ and (min-width : 768px) {
         font-size: 1.1em;
     }
 }
-@media only screen
-and (min-width : 1025px) {
+
+@media only screen and (min-width: 1025px) {
     .testimonials .card-content {
         height: 360px;
     }
-        .testimonials .card-content p {
-            font-size: 1.3em;
-        }
+    .testimonials .card-content p {
+        font-size: 1.3em;
+    }
 }
-@media only screen
-and (min-width : 1440px) {
+
+@media only screen and (min-width: 1440px) {
     .testimonials .card-content {
         height: 450px;
     }
@@ -387,6 +395,7 @@ and (min-width : 1440px) {
         font-size: 1.3em;
     }
 }
+
 
 /* ==================================================
    Services Parallax
@@ -401,6 +410,7 @@ and (min-width : 1440px) {
     min-height: 1000px;
 }
 
+
 /* ==================================================
    Services
 ================================================== */
@@ -412,6 +422,7 @@ and (min-width : 1440px) {
 .service-container {
     padding-top: 3.5em;
 }
+
 
 /* ==================================================
    Photos Parallax
@@ -426,6 +437,7 @@ and (min-width : 1440px) {
     min-height: 1000px;
 }
 
+
 /* ==================================================
    Photos
 ================================================== */
@@ -433,11 +445,13 @@ and (min-width : 1440px) {
 .mosaicflow__column {
     float: left;
 }
+
 .mosaicflow__item img {
     display: block;
     width: 100%;
     height: auto;
 }
+
 
 /* ==================================================
    Footer
@@ -479,17 +493,19 @@ and (min-width : 1440px) {
     color: #AAAAAA;
     text-transform: none;
 }
-    .roots a:hover {
-        color: #FFFFFF;
-        text-decoration: underline;
-    }
+
+.roots a:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
 
 /* ==================================================
    Modal
 ================================================== */
 
 .s-header {
-    background-color: rgba(100,100,100,0.5);
+    background-color: rgba(100, 100, 100, 0.5);
     color: #FFF;
     text-align: center;
     font-weight: bold;
@@ -510,6 +526,7 @@ label {
     margin: 0;
 }
 
+
 /* ==================================================
    Popover
 ================================================== */
@@ -527,6 +544,7 @@ label {
     text-align: center;
 }
 
+
 /* ==================================================
    Buttons
 ================================================== */
@@ -543,6 +561,7 @@ label {
     padding: 1em 0;
 }
 
+
 /* ==================================================
    Social Links
 ================================================== */
@@ -553,8 +572,7 @@ footer #socialmedia ul li {
     margin: 0 10px;
 }
 
-@media only screen
-and (max-width : 360px) {
+@media only screen and (max-width: 360px) {
     footer #socialmedia ul li {
         margin: 0 4px;
     }
@@ -569,10 +587,10 @@ footer #socialmedia ul li a img {
     padding: 2em 0 1em;
 }
 
-
 .desaturate {
     filter: grayscale(100%);
 }
-    .desaturate:hover {
-        filter: grayscale(0%);
-    }
+
+.desaturate:hover {
+    filter: grayscale(0%);
+}
