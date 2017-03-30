@@ -33,6 +33,10 @@ i.material-icons {
     margin: auto;
 }
 
+img {
+    max-height: 1400px;
+}
+
 hr {
     color: #000;
 }
@@ -158,10 +162,15 @@ hr {
 
 .navbar-toggle {
     margin: 0 15px 25px 0;
+    top: -70px;
 }
 
 
 /*Center company logo in navbar*/
+
+#company-name h1 {
+    font-size: 1em;
+}
 
 .navbar>.container-fluid .navbar-brand {
     margin: 0;
@@ -226,7 +235,7 @@ li>h2 {
 
 @media (max-width: 767px) {
     .navbar-collapse {
-        min-height: 400px;
+        min-height: 300px;
     }
     #full-logo {
         display: none;
