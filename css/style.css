@@ -602,6 +602,19 @@ footer #socialmedia ul li a img {
     padding: 0 10%;
 }
 
+.collapsible-header {
+    font-size: 18px;
+    font-weight: bolder;
+}
+.collapsible-header:hover {
+    background-color: #8BC53D;
+    color: #FFF;
+}
+.collapsible-header.active {
+    background-color: #8BC53D;
+    color: #FFF;
+}
+
 /* ==================================================
    Mighty Slider
 ================================================== */
