@@ -5,7 +5,7 @@ $(document).ready(function() {
         navHeight = 90;
     }
     else {
-        navHeight = 120;
+        navHeight = 105;
     }
 
     $( 'a[href^="#"]' ).click(function() {
