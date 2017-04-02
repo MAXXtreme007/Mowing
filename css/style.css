@@ -267,7 +267,6 @@ li>h2 {
     background: url("../media/field-tree-text.png");
     background-size: cover;
     background-position: center right;
-    background-attachment: fixed;
     min-height: 1000px;
 }
 
@@ -396,7 +395,6 @@ i.material-icons.quote {
     background: url("../media/blower.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     min-height: 1000px;
 }
 
@@ -423,7 +421,6 @@ i.material-icons.quote {
     background: url("../media/pruning2.png");
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
     min-height: 1000px;
 }
 
