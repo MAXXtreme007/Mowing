@@ -394,11 +394,11 @@ i.material-icons.quote {
 ================================================== */
 
 #services-parallax {
-    padding-top: 180px;
-    background: url("../media/blower.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 1000px;
+    background-color: #000;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    width: 100%;
 }
 
 /* ==================================================
@@ -418,11 +418,11 @@ i.material-icons.quote {
 ================================================== */
 
 #photos-parallax {
-    padding-top: 180px;
-    background: url("../media/pruning2.png");
-    background-size: cover;
-    background-position: center center;
-    min-height: 800px;
+    background-color: #000;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    width: 100%;
 }
 
 /* ==================================================
