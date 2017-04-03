@@ -2,7 +2,7 @@ $(document).ready(function() {
     var navHeight;
     var link = 'a[href^="#"]';
     if ($(window).width() <= 768) {
-        navHeight = 90;
+        navHeight = 150;
     }
     else {
         navHeight = 105;
