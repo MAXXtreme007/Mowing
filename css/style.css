@@ -257,17 +257,21 @@ li>h2 {
     }
 }
 
-
 /* ==================================================
    Header
 ================================================== */
 
 #header {
-    padding-top: 180px;
-    background: url("../media/field-tree-text.png");
-    background-size: cover;
-    background-position: center right;
-    min-height: 1000px;
+    background-color: #000;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    width: 100%;
+}
+@media only screen and (max-width: 767px) {
+    #header {
+        padding-top: 150px;
+    }
 }
 
 #badge {
@@ -385,7 +389,6 @@ i.material-icons.quote {
     }
 }
 
-
 /* ==================================================
    Services Parallax
 ================================================== */
@@ -397,7 +400,6 @@ i.material-icons.quote {
     background-position: center;
     min-height: 1000px;
 }
-
 
 /* ==================================================
    Services
@@ -411,7 +413,6 @@ i.material-icons.quote {
     padding-top: 3.5em;
 }
 
-
 /* ==================================================
    Photos Parallax
 ================================================== */
@@ -421,24 +422,8 @@ i.material-icons.quote {
     background: url("../media/pruning2.png");
     background-size: cover;
     background-position: center center;
-    min-height: 1000px;
+    min-height: 800px;
 }
-
-
-/* ==================================================
-   Photos
-================================================== */
-
-.mosaicflow__column {
-    float: left;
-}
-
-.mosaicflow__item img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
 
 /* ==================================================
    Footer
@@ -782,13 +767,11 @@ footer #socialmedia ul li a img {
 .ms-slider3 {
     position: relative;
     overflow: hidden;
-    margin-top: 10px;
     background: transparent;
 }
 .ms-slider3 .frame {
     position: relative;
     width: 100%;
-    padding: 20px 0;
     padding-bottom: 30px;
 }
 .ms-slider3 .frame .slide_element {
